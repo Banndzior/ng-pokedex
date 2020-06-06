@@ -6,7 +6,7 @@
       <div *ngFor="let type of pokemon.types" class="type" [ngClass]="type">
         {{type}}
       </div>
-      <p>
+      <p [sizer] sizer="56px" color="red">
         <strong>Height:</strong> {{pokemon.height / 10}} m
         <strong>Weight:</strong> {{pokemon.weight / 10}} kg
       </p>
